@@ -1,0 +1,22 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'link' ]
+2 info using npm@1.1.65
+3 info using node@v0.8.14
+4 verbose linkPkg /home/wuminghan/workspace/jwebquery
+5 verbose read json /home/wuminghan/workspace/jwebquery/package.json
+6 error Error: EACCES, symlink '/home/wuminghan/workspace/jwebquery'
+6 error  { [Error: EACCES, symlink '/home/wuminghan/workspace/jwebquery']
+6 error   errno: 3,
+6 error   code: 'EACCES',
+6 error   path: '/home/wuminghan/workspace/jwebquery' }
+7 error Please try running this command again as root/Administrator.
+8 error System Linux 3.6.5-1-ARCH
+9 error command "/usr/bin/node" "/usr/bin/npm" "link"
+10 error cwd /home/wuminghan/workspace/jwebquery
+11 error node -v v0.8.14
+12 error npm -v 1.1.65
+13 error path /home/wuminghan/workspace/jwebquery
+14 error code EACCES
+15 error errno 3
+16 error stack Error: EACCES, symlink '/home/wuminghan/workspace/jwebquery'
+17 verbose exit [ 3, true ]
