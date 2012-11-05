@@ -16,7 +16,7 @@ It's my first node modules and features are not well tested now.Since it's just 
 
 # Example
 
-basic
+## basic
 ```javascript
 var jwebquery = require("jwebquery");
 (new jwebquery.Page("http://www.stackoverflow.com/")).ready(function(page){
@@ -31,4 +31,9 @@ var jwebquery = require("jwebquery");
 })
 
 
+```
+## proxy
+```javascript
+//use localhost:8099 as http proxy
+jwebquery.setProxy("http://localhost:8099/");
 ```
