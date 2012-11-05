@@ -1,0 +1,23 @@
+{
+    "author": "NStal",
+    "name": "jwebquery",
+    "description": "An jQuery style web crawler(actually extend jquery).",
+    "version": "0.0.1",
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/NStal/jwebquery.git"
+    },
+    "dependencies":{
+	"jquery":"*"
+	,"request":"*"
+    },
+    "keywords":["crawler","web","download"],
+    "engines": {
+	"node": "*"
+    },
+    "directories": {
+	"doc": "./doc",
+	"lib": "./lib"
+    },
+    "main":"./lib/jwebquery.js"
+}
