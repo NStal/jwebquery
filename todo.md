@@ -1,0 +1,1 @@
+* allow downloaded file validate 
